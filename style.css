@@ -1,0 +1,68 @@
+body {
+  background: rgba(0, 0, 0, .5);
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 20rem;
+  color: rgba(0, 0, 0, .5);
+  margin-top: 4rem;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+}
+
+.menu-opener  {
+
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 23px;
+  margin-right: 10px;
+}
+
+
+
+.menu-area {
+  width: 0px;
+  height: 100vh;
+  background: #2f323e;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition:  all ease .5s;
+}
+
+.menu-area ul,
+.menu-area li {
+  font-size: 18px;
+  margin-top: 3rem;
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-area li {
+  width: 100px;
+  margin-left: 5rem;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #eee;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.menu-area li:hover {
+  background: rgba(0, 0, 0, .3);
+  transition:  2s;
+}
+
+.menu-opened {
+  width: 250px;
+}
