@@ -18,7 +18,7 @@ aside {
   display: flex;
 }
 
-.menu-opener  {
+#menu-opener  {
 
   width: 50px;
   height: 40px;
@@ -29,7 +29,7 @@ aside {
 
 
 
-.menu-area {
+#menu-area {
   width: 0px;
   height: 100vh;
   background: #2f323e;
@@ -38,15 +38,15 @@ aside {
   transition:  all ease .5s;
 }
 
-.menu-area ul,
-.menu-area li {
+#menu-area ul,
+#menu-area li {
   font-size: 18px;
   margin-top: 3rem;
   padding: 0px;
   list-style: none;
 }
 
-.menu-area li {
+#menu-area li {
   width: 100px;
   margin-left: 5rem;
   display: block;
@@ -58,7 +58,7 @@ aside {
 
 }
 
-.menu-area li:hover {
+#menu-area li:hover {
   background: rgba(0, 0, 0, .3);
   transition:  2s;
 }
